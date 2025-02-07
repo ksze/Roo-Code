@@ -1,5 +1,21 @@
 # Roo Code Changelog
 
+## [3.3.14]
+
+- Should have skipped floor 13 like an elevator. This fixes the broken 3.3.13 release by reverting some changes to the deployment scripts.
+
+## [3.3.13]
+
+- Ensure the DeepSeek r1 model works with Ollama (thanks @sammcj!)
+- Enable context menu commands in the terminal (thanks @samhvw8!)
+- Improve sliding window truncation strategy for models that do not support prompt caching (thanks @nissa-seru!)
+- First step of a more fundamental fix to the bugs around switching API profiles. If you've been having issues with this please try again and let us know if works any better! More to come soon, including fixing the laggy text entry in provider settings.
+
+## [3.3.12]
+
+- Bug fix to changing a mode's API configuration on the prompts tab
+- Add new Gemini models
+
 ## [3.3.11]
 
 - Safer shell profile path check to avoid an error on Windows
